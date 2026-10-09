@@ -57,3 +57,41 @@ a {
     background-color: #E8A33D;
     color: #1a1a1c;
 }
+
+/* Highlights the button for the current page */
+.current {
+    background-color: #14365B;
+}
+
+/* Content boxes */
+.box {
+    background-color: white;
+    border: 2px solid #99C4D8;
+    border-radius: 10px;
+    margin: 2%;
+    min-height: 120px;
+}
+
+/* Darker border when hovered */
+.box:hover {
+    border-color: #1F6F8B;
+}
+
+/* Footer with a 45 degree gradient, solid colour as a fallback */
+#footer {
+    background-color: #14365B;
+    background: linear-gradient(45deg, #14365B 0%, #1F6F8B 100%);
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* White email link */
+#footer a {
+    color: white;
+}
+
+/* Stops floated elements from wrapping around what comes after */
+.clear {
+    clear: both;
+}

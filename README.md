@@ -8,6 +8,7 @@ links connected:
 Current Progress:
 - Home page head 
 - Home page header and navigation 
+- Home page main content and footer
 - Stylesheet used for every screen
 
 
@@ -30,6 +31,12 @@ Home Page:
 - All content sits inside a wrapper div
 - Banner is a header element and the left column
 - Nav links to all four pages use the Week 3 button class
+- Home link has a current class to show the active page
+- Main content is an article element with a welcome heading and introduction
+- Four section boxes: what I study, certification, what I build, get in touch
+- A clear div starts a new row of boxes
+- A clear div puts the footer below both columns
+- Footer has my email link inside an address element and a copyright
 
 
 Shared Stylesheet:
@@ -42,6 +49,17 @@ Shared Stylesheet:
 - a: Link colour
 - .button: Nav links as blocks with padding, rounded corners and a colour transition
 - .button:hover : Amber background with dark text on hover
+- .current: Darker navy button for the current page
+- .box: White content boxes with a steel blue border and rounded corners
+- .box:hover: Darker border on hover
+- #footer: 45 degree angle gradient from navy to teal with a solid navy fallback
+- #footer a: White email link
+- .clear: Stops floated elements from wrapping around what comes after
+
+
+Gradients:
+- Direction based: #banner, to bottom, #14365B to #1F6F8B
+- Angle based: #footer, 45deg, #14365B to #1F6F8B
 
 
 Colours: 
@@ -51,9 +69,13 @@ Colours:
 - #DCE8EE
 - #F2F6F8
 - #1A1A1C 
+- #99C4D8
 
 
 Soruces:
-- Week 1 lecture | Page template, wrapper, compound styles, gradient syntax
-- Week 2 lecture, semantic markup | header and nav elements
-- Week 3 lecture, responsive design | Viewport meta tag, media query
+- Week 1 lecture: Page template, wrapper, compound styles, gradient syntax
+- Week 2 lecture, semantic markup, header and nav elements
+- Week 3 lecture, responsive design, viewport meta tag, media query
+- Week 2 lecture, semantic markup, article, section, footer and address elements
+- Week 1 lecture: box class, clear class
+- Week 4 lecture: Hover transition on the nav buttons
