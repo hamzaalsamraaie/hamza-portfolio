@@ -1,0 +1,50 @@
+@charset "UTF-8";
+/* Mobile: 480px and narrower */
+
+#wrapper {
+    width: 100%;
+}
+
+/* Everything in one column */
+#left-column {
+    float: none;
+    width: 100%;
+    padding-top: 5px;
+}
+
+#right-column {
+    float: none;
+    width: 100%;
+}
+
+/* Large stacked buttons, easy to tap */
+.button {
+    float: none;
+    text-align: center;
+    font-size: x-large;
+}
+
+/* One box per row */
+.box {
+    float: none;
+    width: 92%;
+}
+
+figure {
+    float: none;
+    width: 80%;
+}
+
+/* Less spacing so the video fits small screens */
+video {
+    margin: 5px;
+    padding: 5px;
+}
+
+.field {
+    width: 90%;
+}
+
+h1 {
+    font-size: x-large;
+}

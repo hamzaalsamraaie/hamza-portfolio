@@ -1,0 +1,30 @@
+@charset "UTF-8";
+/* Laptop: 960px and wider */
+
+#wrapper {
+    width: 80%;
+}
+
+/* Nav on the left, content on the right */
+#left-column {
+    float: left;
+    width: 22%;
+    padding-top: 15px;
+}
+
+#right-column {
+    float: right;
+    width: 74%;
+}
+
+/* Two boxes per row */
+.box {
+    float: left;
+    width: 44%;
+}
+
+/* Photo sits to the right of the text */
+figure {
+    float: right;
+    width: 35%;
+}

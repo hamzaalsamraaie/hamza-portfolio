@@ -114,3 +114,25 @@ video {
     border: 2px white solid;
     box-shadow: 10px 10px 5px #14365B;
 }
+
+/* Form fields resize with the screen */
+.field {
+    width: 80%;
+    padding: 5px;
+    border: 1px solid #14365B;
+}
+
+.form-button {
+    margin: 10px;
+    padding: 8px;
+    background-color: #14365B;
+    color: white;
+    border: 2px white solid;
+    border-radius: 5px;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.form-button:hover {
+    background-color: #E8A33D;
+    color: #1A1A1C;
+}

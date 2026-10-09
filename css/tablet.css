@@ -1,0 +1,41 @@
+@charset "UTF-8";
+/* Tablet: 481px to 959px */
+
+#wrapper {
+    width: 95%;
+}
+
+/* Nav stacks above the content */
+#left-column {
+    float: none;
+    width: 100%;
+    padding-top: 10px;
+}
+
+#right-column {
+    float: none;
+    width: 100%;
+}
+
+/* Two nav buttons per row */
+.button {
+    float: left;
+    width: 40%;
+    text-align: center;
+    font-size: large;
+}
+
+/* Two boxes per row */
+.box {
+    float: left;
+    width: 44%;
+}
+
+figure {
+    float: right;
+    width: 45%;
+}
+
+h1 {
+    font-size: x-large;
+}
