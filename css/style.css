@@ -85,3 +85,32 @@ a {
 .clear {
     clear: both;
 }
+
+figure {
+    background-color: white;
+    border: 1px solid #99C4D8;
+    padding: 5px;
+    margin: 15px;
+}
+
+/* Photo fills its frame and keeps its shape */
+figure img {
+    width: 100%;
+    height: auto;
+}
+
+figcaption {
+    background-color: #14365B;
+    color: white;
+}
+
+/* Video resizes with the screen */
+video {
+    width: 80%;
+    height: auto;
+    margin: 10px;
+    padding: 10px;
+    background-color: black;
+    border: 2px white solid;
+    box-shadow: 10px 10px 5px #14365B;
+}
