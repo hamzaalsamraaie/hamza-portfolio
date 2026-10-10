@@ -103,4 +103,3 @@ Sources:
 - Week 3 lecture, responsive design: viewport meta tag, media queries, fluid widths, button class, separate viewport stylesheets
 - Week 4 lecture: hover transitions on the buttons, text-align center
 - MDN Web Docs, input pattern attribute (developer.mozilla.org): pattern="[0-9]{10}" on the phone field. This is the only HTML or CSS feature not taught in the lectures
-- Claude (Anthropic), AI assistant: helped me adapt the lecture code to my layout, suggested the page structure and CSS, and explained how each part works. The code is based on the lecture examples but some of it was written with Claude's help. I reviewed and edited all of it
