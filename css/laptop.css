@@ -23,8 +23,6 @@
     width: 44%;
 }
 
-/* Photo sits to the right of the text */
 figure {
-    float: right;
     width: 35%;
 }

@@ -2,18 +2,17 @@ Hamza's Portfolio:
 
 Links:
 
+- Live site: https://hamzaalsamraaie.github.io/hamza-portfolio/
 - Repository: https://github.com/hamzaalsamraaie/hamza-portfolio.git
-- Live site: Not deployed yet
 
 Current Progress:
 
 - Home page complete
-- About Me structure complete, media pending
-- Projects page complete
+- About Me page complete (photo and introduction video added)
+- Projects page complete (five projects)
 - Contact Me page complete
-- Shared stylesheet complete
-- Laptop, tablet and mobile stylesheets complete
-- Testing and deployment still pending
+- Shared, laptop, tablet and mobile stylesheets complete
+- Deployed to GitHub Pages
 
 Files:
 
@@ -25,16 +24,13 @@ Files:
 - css/laptop.css
 - css/tablet.css
 - css/mobile.css
-
-Media (not added yet):
-
-- images/profile.jpg: my photo
-- images/video-poster.jpg: image shown before the video plays
-- media/introduction.mp4: my introduction video, recorded by me
+- IMG_4533.jpeg: my photo
+- poster.png: image shown before the video plays
+- intro-video.mp4: my introduction video, recorded by me
 
 Viewports:
 
-- laptop.css: min width 960px. Nav floats on the left, content on the right, two boxes per row, photo beside the text
+- laptop.css: min width 960px. Nav floats on the left, content on the right, two boxes per row
 - tablet.css: 481px to 959px. Nav stacks above the content as a two by two block of buttons, two boxes per row
 - mobile.css: max width 480px. Everything in one column, large stacked buttons, one box per row
 - These sizes come from the Week 3 lecture, which lists phones as 480px or narrower, tablets as 481px to 960px and laptops as 960px or wider
@@ -48,7 +44,9 @@ Gradients:
 
 Colours:
 
-I used a complementary scheme from Adobe Color, with navy and teal blues as the main colours and an amber accent. Blue suits a security portfolio and gives strong contrast with white text.
+I used the Complementary harmony rule in Adobe Color (color.adobe.com), with navy and teal blues as the main colours and an amber accent, since blue and orange sit opposite each other on the colour wheel. Blue suits a security portfolio and gives strong contrast with white text.
+
+Adobe Color theme: PASTE YOUR LINK HERE
 
 - #14365B: Navy, header and footer gradients, current page button, photo caption, form buttons
 - #1F6F8B: Teal, links, nav buttons, end of both gradients
@@ -68,21 +66,20 @@ Contact Form:
 - This only works if the visitor has an email app set up on their device. A note on the Contact page explains this
 - GitHub Pages only hosts static files and cannot run a server script, so the form cannot send messages automatically
 
-Deployment (pending):
+Deployment:
 
-- Push the project to the public GitHub repository
-- In the repository, go to Settings, then Pages, choose Deploy from a branch, select main and the root folder, then save
-- Add the live site link above once it is published
+- Pushed the project to the public GitHub repository with git
+- In the repository, went to Settings, then Pages, chose Deploy from a branch, selected main and the root folder, then saved
 
-Testing (pending):
+Testing:
 
-- W3C HTML validator: all four pages
-- W3C CSS validator: all four CSS files
-- W3C Link Checker: live site
-- WAVE accessibility: all four live pages
-- Spelling check
-- Form test: empty fields, bad email, letters or wrong length in the phone number, valid submit
-- Screen sizes: 320, 375, 480, 481, 768, 959, 960 and 1366px
+- W3C HTML validator, all four pages: RESULT
+- W3C CSS validator, all four CSS files: RESULT
+- W3C Link Checker, live site: RESULT
+- WAVE accessibility, all four live pages: RESULT
+- Spelling check: RESULT
+- Form test, empty fields, bad email, letters or wrong length in the phone number, valid submit: RESULT
+- Screen sizes 320, 375, 480, 481, 768, 959, 960 and 1366px in Chrome device tools: RESULT
 
 Sources:
 
@@ -91,6 +88,5 @@ Sources:
 - Week 2 lecture, native video: video element with controls, poster and fallback text
 - Week 2 lecture, forms: mailto form, labels, required, email type, submit and reset buttons
 - Week 3 lecture, responsive design: viewport meta tag, media queries, fluid widths, button class, separate viewport stylesheets
-- Week 4 lecture: hover transitions on the buttons
+- Week 4 lecture: hover transitions on the buttons, text-align center
 - MDN Web Docs, input pattern attribute (developer.mozilla.org): pattern="[0-9]{10}" on the phone field. This is the only HTML or CSS feature not taught in the lectures
-- Claude (Anthropic), AI assistant: helped me adapt the lecture code to my layout, suggested the page structure and CSS, and explained how each part works. The code is based on the lecture examples but some of it was written with Claude's help. I reviewed and edited all of it

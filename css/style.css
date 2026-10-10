@@ -136,3 +136,14 @@ video {
     background-color: #E8A33D;
     color: #1A1A1C;
 }
+
+/* Centres the text on the About Me page */
+.center {
+    text-align: center;
+}
+
+/* Centres the photo frame */
+.center figure {
+    margin-left: auto;
+    margin-right: auto;
+}
