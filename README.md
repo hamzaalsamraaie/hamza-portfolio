@@ -2,7 +2,7 @@ Hamza's Portfolio:
 
 Links:
 
-- Live site: https://hamzaalsamraaie.github.io/hamza-portfolio/
+- Live site: https://hamzaalsamraaie.github.io/hamza-portfolio/ (not confirmed working yet)
 - Repository: https://github.com/hamzaalsamraaie/hamza-portfolio.git
 
 Current Progress:
@@ -12,7 +12,7 @@ Current Progress:
 - Projects page complete (five projects)
 - Contact Me page complete
 - Shared, laptop, tablet and mobile stylesheets complete
-- Deployed to GitHub Pages
+- GitHub Pages deployment pending, live site not confirmed working yet
 
 Files:
 
@@ -26,7 +26,7 @@ Files:
 - css/mobile.css
 - IMG_4533.jpeg: my photo
 - poster.png: image shown before the video plays
-- intro-video.mp4: my introduction video, recorded by me
+- media/introduction.mp4: my introduction video, recorded by me
 
 Viewports:
 
@@ -44,7 +44,7 @@ Gradients:
 
 Colours:
 
-I used the Complementary harmony rule in Adobe Color (color.adobe.com), with navy and teal blues as the main colours and an amber accent, since blue and orange sit opposite each other on the colour wheel. Blue suits a security portfolio and gives strong contrast with white text.
+I used the Complementary harmony rule in Adobe Color, with navy and teal blues as the main colours and an amber accent, since blue and orange sit opposite each other on the colour wheel. Blue suits a security portfolio and gives strong contrast with white text.
 
 Adobe Color theme: PASTE YOUR LINK HERE
 
@@ -66,20 +66,33 @@ Contact Form:
 - This only works if the visitor has an email app set up on their device. A note on the Contact page explains this
 - GitHub Pages only hosts static files and cannot run a server script, so the form cannot send messages automatically
 
-Deployment:
+Deployment (pending):
 
-- Pushed the project to the public GitHub repository with git
-- In the repository, went to Settings, then Pages, chose Deploy from a branch, selected main and the root folder, then saved
+- The project is pushed to the public GitHub repository with git
+- To publish: in the repository, go to Settings, then Pages, choose Deploy from a branch, select main and the root folder, then save
+- The live site has not been confirmed working yet
 
 Testing:
 
-- W3C HTML validator, all four pages: RESULT
-- W3C CSS validator, all four CSS files: RESULT
-- W3C Link Checker, live site: RESULT
-- WAVE accessibility, all four live pages: RESULT
-- Spelling check: RESULT
-- Form test, empty fields, bad email, letters or wrong length in the phone number, valid submit: RESULT
-- Screen sizes 320, 375, 480, 481, 768, 959, 960 and 1366px in Chrome device tools: RESULT
+- W3C Nu HTML Checker, October 9, 2026:
+  - index.html: no errors or warnings
+  - projects.html: no errors or warnings
+  - contact.html: no errors or warnings
+  - about.html: two errors found
+    - The video source was src="Intro video.mp4". The space in the file name is not allowed in a URL. Fixed by moving the video to media/introduction.mp4 and updating the source
+    - The photo caption used an h5 heading right after an h2, which skips heading levels. Fixed by replacing it with plain caption text
+    - Revalidated about.html on October 9, 2026: no errors or warnings
+  - Result: all four HTML pages checked with no errors or warnings
+- W3C CSS Validation Service, October 9, 2026, CSS level 3 + SVG profile:
+  - css/style.css: no errors found
+  - css/laptop.css: no errors found
+  - css/tablet.css: no errors found
+  - css/mobile.css: no errors found
+- W3C Link Checker, live site: pending
+- WAVE accessibility, all four live pages: pending
+- Spelling check: pending
+- Form test, empty fields, bad email, letters or wrong length in the phone number, valid submit: pending
+- Screen sizes 320, 375, 480, 481, 768, 959, 960 and 1366px in Chrome device tools: pending
 
 Sources:
 
@@ -90,3 +103,4 @@ Sources:
 - Week 3 lecture, responsive design: viewport meta tag, media queries, fluid widths, button class, separate viewport stylesheets
 - Week 4 lecture: hover transitions on the buttons, text-align center
 - MDN Web Docs, input pattern attribute (developer.mozilla.org): pattern="[0-9]{10}" on the phone field. This is the only HTML or CSS feature not taught in the lectures
+- Claude (Anthropic), AI assistant: helped me adapt the lecture code to my layout, suggested the page structure and CSS, and explained how each part works. The code is based on the lecture examples but some of it was written with Claude's help. I reviewed and edited all of it
